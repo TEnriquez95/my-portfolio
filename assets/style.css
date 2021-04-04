@@ -19,9 +19,18 @@ header h1 {
     display: inline;
 }
 
+header img {
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    border: 1px solid;
+    width: 100px;
+
+}
 header nav {
     float: right;
     margin: 10px 0;
+    padding: 0;
 }
 
 header nav ul li {
@@ -32,4 +41,8 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 30px;
+}
+
+section {
+    padding: 60px;
 }
