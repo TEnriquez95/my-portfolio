@@ -8,11 +8,126 @@ header {
     padding: 45px 50px;
     background-color: lightpink;
     justify-content: space-between;
+    width: max-content;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    display: inline;
+    color: indigo;
 }
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
+    background-image: url(./images/background.jpg);
+
+}
+
+header img {
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    width: 100px;
+}
+
+header nav {
+    float: right;
+    margin: 10px 0;
+    padding: 0; 
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 10px;
+    font-weight: lighter;
+    font-size: 30px;
+    display: inline;
+}
+
+nav ul li a:hover {
+    color: pink;
+    border: pink solid 1px;
+    background:#fff;
+}
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 50px;
+    color: indigo;
+    margin: 0 20%;
+    width: 30%;
+    float: left;
+}
+
+.content {
+    display: inline;
+    font-size: 20px;
+    text-color: white;
+}
+
+.run-buddy img {
+    height: 70%;
+    width: 70%;
+    float: right;
+}
+
+.chess img {
+    height: 40%;
+    width: 40%;
+    float: right;
+}
+
+.robot img {
+    float: right;
+    flex-wrap: wrap;
+}
+
+.flex-container img{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;*/
+    margin: 4px 4px;
+    padding: 4px 4px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 100px solid red;
+    position: relative;
+}
+
+.flex-item img{
+    margin: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5px 5px;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px white;
+}
+.contact { 
+    display: inline;
 
 }
