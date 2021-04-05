@@ -14,7 +14,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
     display: inline;
 }
@@ -23,7 +23,6 @@ header img {
     border-radius: 50%;
     display: inline;
     float: left;
-    border: 1px solid;
     width: 100px;
 
 }
@@ -41,8 +40,30 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 30px;
+    display: inline;
 }
 
 section {
     padding: 60px;
+    background-color: darkgray
+}
+
+.section-title {
+    font-size: 40px;
+    color: indigo;
+    margin: 0 1.5%;
+    width: 30%;
+    float: left;
+    background-color: cyan;
+}
+
+.content {
+    display: inline;
+}
+.text-right {
+    text-align: right;
+    background-color: red;
+}
+.text-left {
+    text-align: left;
 }
