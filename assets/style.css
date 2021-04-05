@@ -6,10 +6,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkmagenta;
+    background-image: url(./images/background.jpg);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 header {
     padding: 45px 50px;
     background-color: lightpink;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -45,7 +50,6 @@ header nav ul li a {
 
 section {
     padding: 60px;
-    background-color: darkgray
 }
 
 .section-title {
@@ -54,16 +58,45 @@ section {
     margin: 0 1.5%;
     width: 30%;
     float: left;
-    background-color: cyan;
 }
 
 .content {
     display: inline;
+    font-size: 20px;
+    text-align:end;
 }
 .text-right {
     text-align: right;
-    background-color: red;
+    background-color: white;
+    
 }
 .text-left {
     text-align: left;
+}
+
+.run-buddy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.run-buddy img {
+    color: white;
+    height: 75%;
+    width: 80%;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.robot {
+    float: right;
+    flex-wrap: wrap;
+}
+.chess img {
+    width: 50%;
+    height: 50%;
+    float: right;
+    flex-wrap: wrap;
 }
