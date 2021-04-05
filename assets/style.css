@@ -76,8 +76,8 @@ section {
 .content {
     display: inline;
     font-size: 20px;
-    text-color: white;
     border-color: 10px solid black;
+    background-color: white;
 }
 
 .run-buddy img {
@@ -98,11 +98,6 @@ section {
 }
 
 .flex-container img{
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    position: relative;*/
     margin: 4px 4px;
     padding: 4px 4px;
     height: 100%;
@@ -125,13 +120,15 @@ section {
     border-radius: 8px;
 }
 
-.contact-me { 
-    display: inline;
-    float: right;
-    flex-direction: column;
-    
+.flex-item {
+    color:black;
+    word-wrap: normal;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
-.bottom-left {
-    
+.contactinfo a {
+    float:right;
+    margin: 5px;
+    background-color: white;
 }
